@@ -5,9 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
-      body{
-      background-image: url("recruitmentback.png");
+    body {
+      background-image: url("/static/recruitmentback.png");
       background-size: cover;
+      background-repeat: no-repeat;
+      display: inline-block;
     }
     .topic{
       font-family: Sarpanch;
@@ -30,6 +32,7 @@
       font-family: Sarpanch;
       background-color: rgba(255, 255, 255, 0.603);
       transition: 0.25s;
+      display: inline-block;
     }
     .search-bar:hover{
       background-color: white;
@@ -47,6 +50,7 @@
       font-family: Sarpanch;
       background-color: rgba(255, 255, 255, 0.603);
       transition: 0.25s;
+      display: inline-block;
     }
     .search-bar1:hover{
       background-color: white;
@@ -64,6 +68,7 @@
       font-family: Sarpanch;
       background-color: rgba(255, 255, 255, 0.603);
       transition: 0.25s;
+      display: inline-block;
     }
     .search-bar2:hover{
       background-color: white;
@@ -81,6 +86,7 @@
       font-family: Sarpanch;
       background-color: rgba(255, 255, 255, 0.603);
       transition: 0.25s;
+      display: inline-block;
     }
     .search-bar3:hover{
       background-color: white;
@@ -98,6 +104,7 @@
       font-family: Sarpanch;
       background-color: rgba(255, 255, 255, 0.603);
       transition: 0.25s;
+      display: inline-block;
     }
     .search-bar4:hover{
       background-color: white;
@@ -115,6 +122,7 @@
       font-family: Sarpanch;
       background-color: rgba(255, 255, 255, 0.603);
       transition: 0.25s;
+      display: inline-block;
     }
     .search-bar5:hover{
       background-color: white;
@@ -132,6 +140,7 @@
       font-family: Sarpanch;
       background-color: rgba(255, 255, 255, 0.603);
       transition: 0.25s;
+      display: inline-block;
     }
     .search-bar6:hover{
       background-color: white;
@@ -152,6 +161,7 @@
       display: block;
       font-family: Sarpanch;
       transition: 0.25s;
+      display: inline-block;
    }
    .button:hover{
     background-color: rgba(0, 0, 0, 0.342);
@@ -160,7 +170,31 @@
     display: inline-block;
     margin-left: 850px;
     margin-top: 60px;
+    vertical-align: middle;
    }
+   .sub {
+      font-family: Sarpanch;
+      font-weight: bold;
+      margin-bottom: 0;
+    }
+    .textt {
+      margin-left: 120px;
+      display: inline-block;
+      margin-top: 125px;
+    }
+    .para {
+      margin-top: 1px;
+      font-size: 40px;
+      text-align: left;
+      font-family: Sarpanch;
+      font-weight: bold;
+      display: inline-block;
+    }
+    .wth{
+      width: 328px;
+      margin-left: 730px;
+      margin-top: -330px;
+    }
   </style>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -182,17 +216,27 @@
   <p class="topic">
     Recruitment<span class="mbold">.AI</span>
   </p>
-  <div class="main">
-    <form action="/result" method="post">
-      <input class="search-bar5" type="text" placeholder="What does your company do?" name="wd">
-      <input class="search-bar6" type="text" placeholder="Which position are you recruiting?" name="pos">
-      <input class="search-bar" type="text" placeholder="University Degree" name="degree">
-      <input class="search-bar1" type="text" placeholder="Age" name="age">
-      <input class="search-bar2" type="text" placeholder="Gender" name="sex">
-      <input class="search-bar3" type="text" placeholder="Experience" name="exp">
-      <input class="search-bar4" type="text" placeholder="Requested Salaries" name="sal">
-      <input type="submit" value="Enter" class="button">
-    </form>
+  <div class="textt">
+    <p class="sub">
+      what are we?
+    </p>
+    <p class="para">
+      The All-In-One<br>
+      Advisory Tool For<br>
+      Screening Applicants
+    </p>
+    <div class="wth">
+      <form action="/result" method="post">
+        <input class="search-bar5" type="text" placeholder="What does your company do?" name="wd">
+        <input class="search-bar6" type="text" placeholder="Which position are you recruiting?" name="pos">
+        <input class="search-bar" type="text" placeholder="University Degree" name="degree">
+        <input class="search-bar1" type="text" placeholder="Age" name="age">
+        <input class="search-bar2" type="text" placeholder="Gender" name="sex">
+        <input class="search-bar3" type="text" placeholder="Experience" name="exp">
+        <input class="search-bar4" type="text" placeholder="Requested Salaries" name="sal">
+        <input type="submit" value="Enter" class="button">
+      </form>
+    </div>
   </div>
 </body>
 </html>

@@ -4,10 +4,86 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <style>
+    body{
+      background-image: url("/static/recruitmentback.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .topic {
+      font-family: Sarpanch;
+      font-size: 50px;
+      margin-left: 40px;
+      margin-top: 20px;
+    }
+    .main{
+      height: 500px;
+      width: 500px;
+      margin-left: 760px;
+      margin-top: -360px;
+    }
+    .mt{
+      font-family: Roboto Slab;
+      font-weight: 200;
+      text-align: center;
+      font-size: 20px;
+    }
+    .sub {
+      font-family: Sarpanch;
+      font-weight: bold;
+      margin-bottom: 0;
+    }
+    .textt {
+      margin-left: 120px;
+      display: inline-block;
+      margin-top: 125px;
+    }
+    .para {
+      margin-top: 1px;
+      font-size: 40px;
+      text-align: left;
+      font-family: Sarpanch;
+      font-weight: bold;
+      display: inline-block;
+    }
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Beiruti:wght@200..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sarpanch:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <p>
-    {{resultdone}}
+  <p class="topic">
+    Recruitment<span class="mbold">.AI</span>
   </p>
+  <div class="textt">
+    <p class="sub">
+      what are we?
+    </p>
+    <p class="para">
+      The All-In-One<br>
+      Advisory Tool For<br>
+      Screening Applicants
+    </p>
+  </div>
+  <div class="main">
+    <p class="mt">
+      {{resultdone}}
+    </p>
+  </div>
 </body>
 </html>

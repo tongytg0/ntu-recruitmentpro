@@ -5,25 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
-    body{
-      background-image: url("recruitmentback.png");
+    body {
+      background-image: url("/static/recruitmentback.png");
       background-size: cover;
+      background-repeat: no-repeat;
+      display: inline-block;
     }
-    .topic{
+    .topic {
       font-family: Sarpanch;
       font-size: 50px;
       margin-left: 40px;
       margin-top: 20px;
     }
-    .sub{
+    .sub {
       font-family: Sarpanch;
       font-weight: bold;
       margin-bottom: 0;
     }
-    .mbold{
+    .mbold {
       font-weight: bold;
     }
-    .button{
+    .button {
       display: inline-block;
       border: none;
       background-color: rgb(0, 0, 0);
@@ -40,33 +42,32 @@
       font-size: 16px;
       font-family: Sarpanch;
       transition: 0.25s;
-   }
-   .button:hover{
-    background-color: rgba(0, 0, 0, 0.167);
-    color: black;
-   }
-   .back{
-    display: inline-block;
-    background-color: white;
-    width: 350px;
-    height: 380px;
-    border-radius: 20px;
-    margin-top: 160px;
-    margin-left: 40px;
-   }
-   .textt{
-    margin-left: 120px;
-    display: inline-block;
-    margin-top: 125px;
-   }
-   .para{
-    margin-top: 1px;
-    font-size: 40px;
-    text-align: left;
-    font-family: Sarpanch;
-    font-weight: bold;
-
-   }
+    }
+    .button:hover {
+      background-color: rgba(0, 0, 0, 0.167);
+      color: black;
+    }
+    .back {
+      display: inline-block;
+      background-color: white;
+      width: 350px;
+      height: 380px;
+      border-radius: 20px;
+      margin-top: 160px;
+      margin-left: 40px;
+    }
+    .textt {
+      margin-left: 120px;
+      display: inline-block;
+      margin-top: 125px;
+    }
+    .para {
+      margin-top: 1px;
+      font-size: 40px;
+      text-align: left;
+      font-family: Sarpanch;
+      font-weight: bold;
+    }
   </style>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -83,7 +84,6 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
-  
 </head>
 <body>
   <p class="topic">
@@ -95,8 +95,8 @@
     </p>
     <p class="para">
       The All-In-One<br>
-    Advisory Tool For<br>
-    Screening Applicants
+      Advisory Tool For<br>
+      Screening Applicants
     </p>
   </div>
   <form action="/main" method="post">
